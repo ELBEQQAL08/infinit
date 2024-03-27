@@ -58,6 +58,10 @@ nav .btn:hover {
   display: none;
 }
 
+.close-display {
+  display: none;
+}
+
 @media (max-width: 300px) {
   /* Header */
 
@@ -73,5 +77,11 @@ nav .btn:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .close-display {
+    display: none !important;
+    width: 20px;
+    height: 20px;
   }
 }
