@@ -58,10 +58,6 @@ nav .btn:hover {
   display: none;
 }
 
-.close-display {
-  display: none;
-}
-
 @media (max-width: 300px) {
   /* Header */
 
