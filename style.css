@@ -9,7 +9,7 @@
   margin: 0 auto;
 }
 
-nav {
+.nav-mob {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,7 +62,7 @@ nav .btn:hover {
   /* Header */
 
   .header-mob {
-    display: flex;
+    display: block;
   }
 
   header {
@@ -75,9 +75,27 @@ nav .btn:hover {
     align-items: center;
   }
 
-  .close-display {
+  .links-mob {
     visibility: hidden;
-    width: 20px;
-    height: 20px;
+  }
+
+  .links-visible-mob {
+    display: grid;
+    grid-template-rows: repeat(3, 3fr);
+  }
+
+  .links-visible-mob a {
+    margin: 1rem 0.9rem;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #616161;
+    text-decoration: none;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-width: 1px;
+    border-color: #616161;
+    border-style: solid;
   }
 }
