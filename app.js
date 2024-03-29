@@ -7,10 +7,11 @@ const close_mob = document.querySelector(".close-display");
 console.log(close_mob);
 
 menu_mob.addEventListener("click", () => {
-  close_mob.style.display = "block";
+  close_mob.style.visibility = "visible";
   menu_mob.style.visibility = "hidden";
 });
 
-// TODOS:
-// click on menu icon should display consol.log
-// click on menu icon should display close icon and hidden menu icon
+close_mob.addEventListener("click", () => {
+  close_mob.style.visibility = "hidden";
+  menu_mob.style.visibility = "visible";
+});
