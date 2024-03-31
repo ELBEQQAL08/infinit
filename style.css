@@ -79,6 +79,10 @@ nav .btn:hover {
     visibility: hidden;
   }
 
+  .links__trans_mob {
+    transition: top 0.4s;
+  }
+
   .links-visible-mob {
     display: grid;
     grid-template-rows: repeat(3, 3fr);
@@ -108,5 +112,8 @@ nav .btn:hover {
   .links-visible-mob img {
     width: 20px;
     height: 20px;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
   }
 }
