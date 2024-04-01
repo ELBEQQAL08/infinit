@@ -80,7 +80,7 @@ nav .btn:hover {
   }
 
   .links__trans_mob {
-    transition: top 0.4s;
+    transition: all 0.5s;
   }
 
   .links-visible-mob {
