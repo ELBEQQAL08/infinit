@@ -76,6 +76,46 @@ nav .btn:hover {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.left p {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #616161;
+}
+
+.btn__1 {
+  font-size: 0.5rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #637fc7;
+  color: white;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.btn__1:hover {
+  background-color: chocolate;
+  color: white;
+}
+
+.btn__2 {
+  font-size: 0.5rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: #637fc7;
+  border-color: #637fc7;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.btn__2:hover {
+  background-color: chocolate;
+  color: white;
+}
+
 /* End Second Section */
 
 @media (max-width: 300px) {
