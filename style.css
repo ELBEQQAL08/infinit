@@ -191,4 +191,57 @@ nav .btn:hover {
     bottom: 0;
     left: 1rem;
   }
+
+  .left h1::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    animation: animate 6s linear infinite;
+  }
+
+  .left .second-text {
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    position: absolute;
+    top: 12.5rem;
+    bottom: 0;
+    left: 1rem;
+    z-index: -1;
+  }
+
+  .left .second-text::before {
+    content: attr(data-text);
+  }
+
+  .left .last-text {
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    position: absolute;
+    top: 12.5rem;
+    bottom: 0;
+    left: 1rem;
+  }
+
+  .left .last-text::before {
+    content: attr(data-text);
+  }
+}
+
+@keyframes animate {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+
+  75%,
+  90% {
+    width: 100%;
+  }
 }
