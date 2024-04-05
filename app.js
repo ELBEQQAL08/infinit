@@ -1,10 +1,10 @@
 // First Section
 
-const menu_mob = document.querySelector(".menu");
-let links_mob = document.querySelector(".links-mob");
+const menu__mob = document.querySelector(".menu");
+let links__mob = document.querySelector(".links-mob");
 
-menu_mob.addEventListener("click", () => {
-  links_mob.classList.toggle("links-mob");
+menu__mob.addEventListener("click", () => {
+  links__mob.classList.toggle("links-mob");
 });
 
 // Second Section

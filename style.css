@@ -182,7 +182,7 @@ nav .btn:hover {
   }
 
   .left h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 800;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -194,7 +194,7 @@ nav .btn:hover {
 
   .left h1 span::before {
     content: "";
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 800;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
