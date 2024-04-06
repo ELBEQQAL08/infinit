@@ -14,7 +14,7 @@ dynamicText.classList.add("stop-blinking");
 const Words = ["REACH", "ENGAGE", "CONVERT"];
 
 let wordIndex = 0;
-let charIndex = 0;
+let charIndex = 1;
 let isDeleting = false;
 
 const typeEffect = () => {
