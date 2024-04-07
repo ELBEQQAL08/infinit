@@ -223,6 +223,17 @@ nav .btn:hover {
   .left h1 span.stop-blinking::before {
     animation: none;
   }
+
+  .left p {
+    font-size: 0.5rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.1;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
 }
 
 @keyframes blink {
