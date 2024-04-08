@@ -83,22 +83,18 @@ nav .btn:hover {
   color: #616161;
 }
 
-.left .btn__1 {
-  position: relative;
-}
-
 .btn__1 {
   font-size: 1.5rem;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   background-color: darkblue;
   color: white;
-  margin: 2rem 1rem;
-  padding: 1.5rem 2rem;
-  border-radius: 10px;
+  padding: 22px 40.5px;
+  border-radius: 5px;
   cursor: pointer;
-  top: 0;
-  left: 0;
+  position: absolute;
+  top: 50%;
+  left: 10.5%;
 }
 
 .btn__1:hover {
@@ -107,16 +103,18 @@ nav .btn:hover {
 }
 
 .btn__2 {
-  font-size: 0.5rem;
-  font-weight: 500;
+  font-size: 1.5rem;
+  font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
-  color: #637fc7;
-  border-color: #637fc7;
-  margin: 1rem;
-  padding: 0.5rem;
+  color: darkblue;
+  padding: 20px 35.5px;
   border-radius: 5px;
+  border: 5px solid darkblue;
   cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 26.5%;
 }
 
 .btn__2:hover {
@@ -125,7 +123,7 @@ nav .btn:hover {
 }
 
 .left h1 {
-  font-size: 5.5rem;
+  font-size: 4.5rem;
 }
 
 .left p {
@@ -139,7 +137,21 @@ nav .btn:hover {
   color: #616161;
 }
 
+.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.right img {
+  width: 455px;
+  position: absolute;
+  top: 6.5rem;
+}
+
 /* End Second Section */
+
+/* Three Section */
 
 @media (max-width: 300px) {
   /* Header */
@@ -205,7 +217,7 @@ nav .btn:hover {
   }
 
   .left h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 800;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -215,9 +227,13 @@ nav .btn:hover {
     left: 0.5rem;
   }
 
+  .left h1 span {
+    font-size: 3rem;
+  }
+
   .left h1 span::before {
     content: "";
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 800;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -237,6 +253,33 @@ nav .btn:hover {
     left: 0.5rem;
     right: 0;
   }
+
+  .btn__1 {
+    position: absolute;
+    top: 64%;
+    left: 10%;
+  }
+
+  .btn__2 {
+    position: absolute;
+    top: 75.5%;
+    left: 10%;
+  }
+
+  .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .right img {
+    width: 235px;
+    position: absolute;
+    top: 40rem;
+    left: 1rem;
+  }
+
+  /* Three Section */
 }
 
 @keyframes blink {
