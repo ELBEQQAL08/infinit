@@ -151,7 +151,70 @@ nav .btn:hover {
 
 /* End Second Section */
 
-/* Three Section */
+/* Start Three Section */
+
+.three__section {
+  background-color: #2554ed;
+  width: 100%;
+  height: 58vh;
+  border-radius: 5px;
+  position: absolute;
+  top: 32rem;
+  left: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.box__left {
+  background-color: #0074ff;
+  width: 335px;
+  height: 210px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  border-radius: 5px;
+}
+
+.box__left img {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 1.5rem;
+  left: 43.5%;
+}
+
+.box__left h1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  position: relative;
+  top: 2.8rem;
+  left: 1%;
+}
+
+.box__left p {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: beige;
+  position: relative;
+  top: 3.5rem;
+}
+
+/* End Three Section */
 
 @media (max-width: 300px) {
   /* Header */
