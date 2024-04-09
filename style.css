@@ -182,8 +182,8 @@ nav .btn:hover {
   height: 210px;
   position: absolute;
   top: 30%;
-  left: 10%;
-  border-radius: 5px;
+  left: 2%;
+  border-radius: 10px;
 }
 
 .box__left img {
@@ -195,8 +195,8 @@ nav .btn:hover {
 }
 
 .box__left h1 {
-  font-size: 1.4rem;
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   position: relative;
@@ -212,6 +212,61 @@ nav .btn:hover {
   color: beige;
   position: relative;
   top: 3.5rem;
+}
+
+.box__left_2 {
+  position: relative;
+  top: -54%;
+  left: 110%;
+}
+
+.box__right {
+  background-color: #0074ff;
+  width: 335px;
+  height: 210px;
+  position: relative;
+  top: -153%;
+  right: 50%;
+  left: 220%;
+  border-radius: 10px;
+}
+
+.box__right img {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 1.5rem;
+  left: 43.5%;
+}
+
+.box__right h1 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  position: relative;
+  top: 2.8rem;
+  left: 1%;
+}
+
+.box__right p {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: beige;
+  position: relative;
+  top: 3.5rem;
+}
+
+.box__right_2 {
+  position: relative;
+  top: -55%;
+  left: 110%;
+}
+
+.three__section__mob {
+  display: none;
 }
 
 /* End Three Section */
@@ -343,6 +398,14 @@ nav .btn:hover {
   }
 
   /* Three Section */
+
+  .three__section {
+    display: none;
+  }
+
+  /* .three__section__mob {
+    display: block;
+  } */
 }
 
 @keyframes blink {
