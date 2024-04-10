@@ -271,6 +271,9 @@ nav .btn:hover {
 
 /* End Three Section */
 
+/* Start Hero Section */
+
+/* End Hero Section */
 @media (max-width: 300px) {
   /* Header */
   .header-mob {
@@ -373,15 +376,15 @@ nav .btn:hover {
   }
 
   .btn__1 {
-    position: absolute;
-    top: 64%;
-    left: 10%;
+  }
+
+  .btn__1:hover {
   }
 
   .btn__2 {
-    position: absolute;
-    top: 75.5%;
-    left: 10%;
+  }
+
+  .btn__2:hover {
   }
 
   .right {
@@ -403,9 +406,104 @@ nav .btn:hover {
     display: none;
   }
 
-  /* .three__section__mob {
+  .three__section__mob {
     display: block;
-  } */
+    background-color: #2554ed;
+    width: 278px;
+    height: 130vh;
+    position: absolute;
+    top: 122%;
+    bottom: 0;
+    left: 0;
+  }
+
+  .main__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main__mob h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 7%;
+    right: 0;
+    left: 0;
+  }
+
+  .box__left__mob {
+    background-color: #0074ff;
+    width: 260px;
+    height: 155px;
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    border-radius: 10px;
+  }
+
+  .box__left__mob img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 1rem;
+    left: 6.3rem;
+  }
+
+  .box__left__mob h1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 1rem;
+    left: 1.5%;
+  }
+
+  .box__left__mob p {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: beige;
+    position: relative;
+    top: 1.5rem;
+  }
+
+  .box__left__mob_2 {
+    position: absolute;
+    top: 38%;
+  }
+
+  .box__right__mob {
+    position: absolute;
+    top: 57%;
+  }
+
+  .box__right__mob_2 {
+    position: absolute;
+    top: 75%;
+  }
+
+  .box__right__mob_2 img {
+    position: absolute;
+    top: 4%;
+  }
+
+  .box__right__mob_2 h1 {
+    position: absolute;
+    top: 36%;
+  }
+
+  .box__right__mob_2 p {
+    position: absolute;
+    top: 52%;
+  }
+
+  /* Hero Section Mob */
 }
 
 @keyframes blink {

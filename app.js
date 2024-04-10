@@ -2,6 +2,7 @@
 
 const menu__mob = document.querySelector(".menu");
 let links__mob = document.querySelector(".links-mob");
+menu__mob.style.cursor = "pointer";
 
 menu__mob.addEventListener("click", () => {
   links__mob.classList.toggle("links-mob");
