@@ -64,37 +64,36 @@ nav .btn:hover {
 
 /* Start Second Section */
 
-.left {
+.left__section {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
-.left h1 {
-  font-size: 7.5rem;
+.left__section h1 {
+  font-size: 5.5rem;
   font-weight: 800;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.left p {
+.left__section p {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
   color: #616161;
 }
 
 .btn__1 {
-  font-size: 1.5rem;
+  margin: 10px;
+  padding: 1rem 3.5rem;
+  font-size: 1rem;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: darkblue;
   color: white;
-  padding: 22px 40.5px;
+  background-color: #637fc7;
   border-radius: 5px;
   cursor: pointer;
-  position: absolute;
-  top: 50%;
-  left: 10.5%;
 }
 
 .btn__1:hover {
@@ -103,18 +102,16 @@ nav .btn:hover {
 }
 
 .btn__2 {
-  font-size: 1.5rem;
+  margin: 10px;
+  padding: 1rem 3.5rem;
+  font-size: 1rem;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: white;
-  color: darkblue;
-  padding: 20px 35.5px;
+  color: #637fc7;
+  background-color: transparent;
   border-radius: 5px;
-  border: 4px solid darkblue;
+  border: 3px solid #637fc7;
   cursor: pointer;
-  position: absolute;
-  top: 50%;
-  left: 26.5%;
 }
 
 .btn__2:hover {
@@ -122,38 +119,11 @@ nav .btn:hover {
   color: white;
 }
 
-.left h1 {
-  font-size: 4.5rem;
-}
-
-.left p {
-  font-size: 1rem;
-  font-weight: 500;
-  font-family: Arial, Helvetica, sans-serif;
-  position: absolute;
-  top: 17rem;
-  left: 10rem;
-  line-height: 1.2;
-  color: #616161;
-}
-
-.right {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.right img {
-  width: 455px;
-  position: absolute;
-  top: 6.5rem;
-}
-
 /* End Second Section */
 
 /* Start Three Section */
 
-.three__section {
+/* .three__section {
   background-color: #2554ed;
   width: 100%;
   height: 58vh;
@@ -267,14 +237,14 @@ nav .btn:hover {
 
 .three__section__mob {
   display: none;
-}
+} */
 
 /* End Three Section */
 
 /* Start Hero Section */
 
 /* End Hero Section */
-@media (max-width: 300px) {
+@media all and (max-width: 300px) {
   /* Header */
   .header-mob {
     display: block;
@@ -331,7 +301,7 @@ nav .btn:hover {
 
   /* Second Section */
 
-  .left {
+  /* .left {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -398,11 +368,11 @@ nav .btn:hover {
     position: absolute;
     top: 40rem;
     left: 1rem;
-  }
+  } */
 
   /* Three Section */
 
-  .three__section {
+  /* .three__section {
     display: none;
   }
 
@@ -501,13 +471,13 @@ nav .btn:hover {
   .box__right__mob_2 p {
     position: absolute;
     top: 52%;
-  }
+  } */
 
   /* Hero Section Mob */
 }
 
-@keyframes blink {
+/* @keyframes blink {
   50% {
     opacity: 0;
   }
-}
+} */
