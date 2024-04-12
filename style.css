@@ -129,121 +129,66 @@ nav .btn:hover {
 
 /* Start Three Section */
 
-/* .three__section {
+.three__section {
   background-color: #2554ed;
-  width: 100%;
-  height: 58vh;
-  border-radius: 5px;
-  position: absolute;
-  top: 38rem;
-  left: 0;
+  width: auto;
+  height: 385px;
 }
 
-.main {
+.content {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 6rem;
 }
 
 .main h1 {
-  font-size: 5rem;
+  font-size: 5.5rem;
   font-weight: 700;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
+  text-align: center;
+  margin: 1rem 0;
 }
 
 .box__left {
   background-color: #0074ff;
-  width: 335px;
-  height: 210px;
-  position: absolute;
-  top: 30%;
-  left: 2%;
-  border-radius: 10px;
+  width: 328px;
+  height: 195px;
+  border-radius: 5px;
+  transition-duration: 0.3s;
+  transition-property: box-shadow;
+  cursor: pointer;
+}
+
+.box__left:hover {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
 
 .box__left img {
   width: 50px;
   height: 50px;
-  position: relative;
-  top: 1.5rem;
-  left: 43.5%;
+  margin: 1rem 8.4rem;
+  margin-bottom: 0;
 }
 
 .box__left h1 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 500;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  position: relative;
-  top: 2.8rem;
-  left: 1%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
 }
 
 .box__left p {
   font-size: 1rem;
-  font-weight: 400;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  color: beige;
-  position: relative;
-  top: 3.5rem;
-}
-
-.box__left_2 {
-  position: relative;
-  top: -54%;
-  left: 110%;
-}
-
-.box__right {
-  background-color: #0074ff;
-  width: 335px;
-  height: 210px;
-  position: relative;
-  top: -153%;
-  right: 50%;
-  left: 220%;
-  border-radius: 10px;
-}
-
-.box__right img {
-  width: 50px;
-  height: 50px;
-  position: relative;
-  top: 1.5rem;
-  left: 43.5%;
-}
-
-.box__right h1 {
-  font-size: 1.3rem;
   font-weight: 500;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
   text-align: center;
-  position: relative;
-  top: 2.8rem;
-  left: 1%;
 }
-
-.box__right p {
-  font-size: 1rem;
-  font-weight: 400;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  color: beige;
-  position: relative;
-  top: 3.5rem;
-}
-
-.box__right_2 {
-  position: relative;
-  top: -55%;
-  left: 110%;
-}
-
-.three__section__mob {
-  display: none;
-} */
 
 /* End Three Section */
 
@@ -312,7 +257,6 @@ nav .btn:hover {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    width: 0;
     height: 0;
   }
 
@@ -322,7 +266,7 @@ nav .btn:hover {
   }
 
   .left__section h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     margin-top: 14rem;
     margin-left: 0.5rem;
   }
@@ -346,114 +290,42 @@ nav .btn:hover {
     margin-left: 0.5rem;
   }
 
+  .btn__1 {
+    margin-left: 0;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    width: 100%;
+  }
+
+  .btn__1:hover {
+    background-color: chocolate;
+    color: white;
+  }
+
+  .btn__2 {
+    margin-top: 0;
+    margin-left: 0;
+    padding: 1rem 2rem;
+    width: 100%;
+  }
+
+  .btn__2:hover {
+    background-color: chocolate;
+    color: white;
+  }
+
   @keyframes blink {
     50% {
       opacity: 0;
     }
   }
 
+  .right__section img {
+    width: 235px;
+    margin-left: 0.5rem;
+  }
+
   /* Three Section */
-
-  /* .three__section {
-    display: none;
-  }
-
-  .three__section__mob {
-    display: block;
-    background-color: #2554ed;
-    width: 278px;
-    height: 130vh;
-    position: absolute;
-    top: 122%;
-    bottom: 0;
-    left: 0;
-  }
-
-  .main__flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .main__mob h1 {
-    font-size: 2.8rem;
-    font-weight: 700;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    position: absolute;
-    text-align: center;
-    top: 7%;
-    right: 0;
-    left: 0;
-  }
-
-  .box__left__mob {
-    background-color: #0074ff;
-    width: 260px;
-    height: 155px;
-    position: absolute;
-    top: 20%;
-    left: 3%;
-    border-radius: 10px;
-  }
-
-  .box__left__mob img {
-    width: 50px;
-    height: 50px;
-    position: relative;
-    top: 1rem;
-    left: 6.3rem;
-  }
-
-  .box__left__mob h1 {
-    font-size: 1.2rem;
-    font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    position: relative;
-    top: 1rem;
-    left: 1.5%;
-  }
-
-  .box__left__mob p {
-    font-size: 1rem;
-    font-weight: 400;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: beige;
-    position: relative;
-    top: 1.5rem;
-  }
-
-  .box__left__mob_2 {
-    position: absolute;
-    top: 38%;
-  }
-
-  .box__right__mob {
-    position: absolute;
-    top: 57%;
-  }
-
-  .box__right__mob_2 {
-    position: absolute;
-    top: 75%;
-  }
-
-  .box__right__mob_2 img {
-    position: absolute;
-    top: 4%;
-  }
-
-  .box__right__mob_2 h1 {
-    position: absolute;
-    top: 36%;
-  }
-
-  .box__right__mob_2 p {
-    position: absolute;
-    top: 52%;
-  } */
 
   /* Hero Section Mob */
 }
