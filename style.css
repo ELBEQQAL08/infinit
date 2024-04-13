@@ -238,7 +238,7 @@ nav .btn:hover {
 /* Start Hero Section */
 
 /* End Hero Section */
-@media only screen and (min-width: 300px) and (max-width: 700px) {
+@media screen and (min-width: 300px) and (max-width: 700px) {
   /* Header */
   .header-mob {
     display: block;
