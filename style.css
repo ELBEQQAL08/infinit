@@ -123,6 +123,7 @@ nav .btn:hover {
 
 .right__section img {
   width: 500px;
+  margin-bottom: 3rem;
 }
 
 /* End Second Section */
@@ -135,11 +136,12 @@ nav .btn:hover {
   height: 385px;
 }
 
-.content {
+.box__container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 6rem;
+  margin-top: 3rem;
+  margin-left: 4rem;
 }
 
 .main h1 {
@@ -159,6 +161,7 @@ nav .btn:hover {
   transition-duration: 0.3s;
   transition-property: box-shadow;
   cursor: pointer;
+  margin-right: 1rem;
 }
 
 .box__left:hover {
@@ -190,12 +193,52 @@ nav .btn:hover {
   text-align: center;
 }
 
+.box__right {
+  background-color: #0074ff;
+  width: 328px;
+  height: 195px;
+  border-radius: 5px;
+  transition-duration: 0.3s;
+  transition-property: box-shadow;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.box__right:hover {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.box__right img {
+  width: 50px;
+  height: 50px;
+  margin: 1rem 8.4rem;
+  margin-bottom: 0;
+}
+
+.box__right h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.box__right p {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
 /* End Three Section */
 
 /* Start Hero Section */
 
 /* End Hero Section */
-@media all and (max-width: 300px) {
+@media screen and (min-width: 300px) and (max-width: 700px) {
   /* Header */
   .header-mob {
     display: block;
@@ -266,7 +309,7 @@ nav .btn:hover {
   }
 
   .left__section h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-top: 14rem;
     margin-left: 0.5rem;
   }
@@ -320,12 +363,33 @@ nav .btn:hover {
     }
   }
 
+  .right__section {
+    margin-left: 0.5rem;
+  }
+
   .right__section img {
     width: 235px;
-    margin-left: 0.5rem;
   }
 
   /* Three Section */
 
   /* Hero Section Mob */
+}
+
+@media screen and (max-width: 700px) {
+  /* First Section */
+
+  .left__section h1 {
+    font-size: 4.5rem;
+    text-align: center;
+  }
+
+  .left__section h1 span {
+    font-size: 4.5rem;
+    text-align: center;
+  }
+
+  .right__section {
+    margin-left: 5rem;
+  }
 }
