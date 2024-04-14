@@ -161,6 +161,7 @@ nav .btn:hover {
   transition-property: box-shadow;
   cursor: pointer;
   margin-right: 1rem;
+  padding: 1rem 0;
 }
 
 .box__left:hover {
@@ -203,6 +204,7 @@ nav .btn:hover {
   transition-property: box-shadow;
   cursor: pointer;
   margin-right: 1rem;
+  padding: 1rem 0;
 }
 
 .box__right:hover {
@@ -239,6 +241,21 @@ nav .btn:hover {
 /* End Three Section */
 
 /* Start Hero Section */
+
+.left__section_2 h1 {
+  font-weight: 500;
+}
+
+.left__section_2 p {
+  margin-bottom: 20px;
+}
+
+.left__section_2 p span {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6b717a;
+}
 
 /* End Hero Section */
 @media screen and (min-width: 300px) and (max-width: 700px) {
