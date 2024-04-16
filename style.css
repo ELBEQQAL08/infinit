@@ -403,6 +403,7 @@ nav .btn:hover {
 
   .three__section {
     background-color: #2554ed;
+    background-position: center;
     width: 100%;
     height: auto;
   }
@@ -484,6 +485,5 @@ nav .btn:hover {
 
   .left__section_2 h1 {
     font-weight: 500;
-    padding-right: 5rem;
   }
 }
