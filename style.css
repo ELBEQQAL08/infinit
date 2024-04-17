@@ -283,14 +283,16 @@ nav .btn:hover {
     display: none;
   }
 
-  .links-mob {
+  .links__mob {
     visibility: hidden;
+    transition: 0.5s all;
+    transform: translateY(-1000%);
   }
 
   .links__visible {
     visibility: visible;
     transition: 0.5s all;
-    transform: translateY(100%);
+    transform: translateY(15%);
   }
 
   .links-visible-mob {
@@ -321,8 +323,9 @@ nav .btn:hover {
   }
 
   .links-visible-mob img {
-    width: 20px;
-    height: 20px;
+    width: 100%;
+    max-width: 20px;
+    height: auto;
     position: absolute;
     top: 0;
     right: 0;
