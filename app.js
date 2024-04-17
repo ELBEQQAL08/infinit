@@ -2,10 +2,12 @@
 
 const menu__mob = document.querySelector(".menu");
 let links__mob = document.querySelector(".links-mob");
+let links__hidden = document.querySelector(".links__visible");
+const close = document.querySelector(".close-display");
 menu__mob.style.cursor = "pointer";
 
 menu__mob.addEventListener("click", () => {
-  links__mob.classList.toggle("links-mob");
+  links__hidden.classList.toggle("links__visible");
 });
 
 // Second Section

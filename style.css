@@ -287,6 +287,12 @@ nav .btn:hover {
     visibility: hidden;
   }
 
+  .links__visible {
+    visibility: visible;
+    transition: 0.5s all;
+    transform: translateY(100%);
+  }
+
   .links-visible-mob {
     display: grid;
     grid-template-rows: repeat(3, 3fr);
@@ -403,7 +409,6 @@ nav .btn:hover {
 
   .three__section {
     background-color: #2554ed;
-    background-position: center;
     width: 100%;
     height: auto;
   }
