@@ -64,6 +64,10 @@ nav .btn:hover {
 
 /* End Nav Bar */
 
+header {
+  display: block;
+}
+
 /* Start Second Section */
 
 .wrapper {
