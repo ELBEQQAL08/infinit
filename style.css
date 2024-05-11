@@ -517,14 +517,17 @@ header {
 
 /* Start Wrapper Section */
 
-.background {
+.wrapper__box {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-.background,
-.background-padd {
+.background::before,
+.background::after,
+.background-padd::before,
+.background-padd::after {
   content: "";
   display: table;
 }
