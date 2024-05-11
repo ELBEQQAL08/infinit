@@ -517,6 +517,82 @@ header {
 
 /* Start Wrapper Section */
 
+.background {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.background,
+.background-padd {
+  content: "";
+  display: table;
+}
+
+.bakground__main {
+  top: -1px;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  direction: ltr;
+}
+
+svg {
+  display: block;
+  width: calc(100% + 1.3px);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 222px;
+}
+
+path {
+  transform-origin: center;
+}
+
+.container__content {
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  min-height: 1px;
+}
+
+.column__inner {
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+
+.column__inner::before,
+.column__inner::after {
+  content: "";
+  display: table;
+}
+
+.title__heading {
+  font-size: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-align: left;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.title__heading span {
+  display: inline-block;
+  text-align: left;
+}
+
+.wpex__clear {
+  height: 30px;
+  width: 100%;
+  clear: both;
+}
+
 /* .background {
   position: absolute;
   overflow: hidden;
