@@ -8,14 +8,14 @@ const close__visible = document.querySelector(".close");
 menu__mob.style.cursor = "pointer";
 close__visible.style.cursor = "pointer";
 
-// Visible Links With ClasseName(".links__visible")
+// Visible Links With ClassName(".links__visible")
 
 menu__mob.addEventListener("click", () => {
   container_div.classList.toggle("links__visible");
   container_div.classList.remove("links__mob");
 });
 
-// Hide Links With ClasseName(".links__hidden")
+// Hide Links With ClassName(".links__hidden")
 
 close__visible.addEventListener("click", () => {
   container_div.classList.toggle("links__mob");
