@@ -517,6 +517,45 @@ header {
 
 /* Start Wrapper Section */
 
+.vc__row::before,
+.vc__row::after,
+.vc__row__b::before,
+.vc__row__b::after {
+  display: table;
+  content: "";
+}
+
+.vc__row::after,
+.vc__row__b::after {
+  clear: both;
+}
+
+.background {
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  direction: ltr;
+}
+
+.background svg {
+  height: 222px;
+  display: block;
+  width: calc(100% + 1.3px);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 0;
+  direction: ltr;
+}
+
+.background path {
+  transform-origin: center;
+  line-height: 0;
+  direction: ltr;
+}
+
 /* End Wrapper Section */
 
 @media screen and (min-width: 300px) and (max-width: 700px) {
