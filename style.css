@@ -574,12 +574,35 @@ header {
 
 .flex__c_box {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding-top: 11px !important;
+  padding-bottom: 11px !important;
+  padding-left: 11px !important;
+  padding-right: 11px !important;
+  background-color: #1e73be !important;
+  border-radius: 5px !important;
+  text-align: left;
 }
 
 .box_1 {
-  background-color: #2554ed;
+  width: auto;
+  border-radius: 5px;
+}
+
+.container__icons {
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.container__icons img {
+  width: 22px;
+  vertical-align: middle;
+}
+
+.box_1 h1 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* End Wrapper Section */
