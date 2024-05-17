@@ -537,6 +537,7 @@ header {
   width: 100%;
   line-height: 0;
   direction: ltr;
+  z-index: -1;
 }
 
 .background svg {
@@ -554,6 +555,31 @@ header {
   transform-origin: center;
   line-height: 0;
   direction: ltr;
+}
+
+.title__heading span {
+  color: black;
+  font-size: 75px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wbp__wrapper p {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #616161;
+  padding-top: 6rem;
+}
+
+.flex__c_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box_1 {
+  background-color: #2554ed;
 }
 
 /* End Wrapper Section */
