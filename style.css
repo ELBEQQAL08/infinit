@@ -583,35 +583,107 @@ header {
   line-height: 1.4;
 }
 
-.container__boxes {
-  display: flex;
+.wbp__row-box {
+  margin-bottom: 0;
+}
+
+.vc__row-box {
+  position: relative;
+}
+
+.vc__row-box {
+  padding-left: -15px;
+  padding-right: -15px;
+}
+
+.vc__clearFix-box::after,
+.vc__clearFix-box::before,
+.vc__row-box::after,
+.vc__row-box::before {
+  content: "";
+  display: table;
+}
+
+.vc__colm-sm-6 {
+  position: relative;
+  min-height: 1px;
+  box-sizing: border-box;
+}
+
+.vc__column-inner::before,
+.vc__column-inner::after {
+  content: "";
+  display: table;
+}
+
+.flex__container {
   padding-top: 11px !important;
   padding-bottom: 11px !important;
+  padding-left: 11px !important;
   padding-right: 11px !important;
-  text-align: left;
+  border-radius: 5px !important;
+  background-color: #1e73be !important;
+  display: flex;
+  width: 100%;
 }
 
-.container__images {
-  flex-shrink: 0;
+.wpex_mr-20 {
   margin-right: 20px;
+}
+
+.wpex__shrink-0 {
+  flex-shrink: 0;
   text-align: left;
 }
 
-.container__images img {
+.vcex-icon-symbol-box img {
   width: 22px;
   vertical-align: middle;
 }
 
-.box__1 {
-  background-color: #1e73be;
-  border-radius: 5px;
+.wpex-flex-grow {
+  flex-grow: 1;
+  text-align: left;
 }
 
-.titles__box h1 {
-  color: white;
-  font-size: 15px;
+.wpex-flex-grow h2 {
+  color: #ffffff;
+  font-size: 1.077em;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+.vcex__icon-box-content {
+  color: #ffffff;
+  text-align: left;
+}
+
+.vcex__icon-box-content p:last-child {
+  margin-bottom: 0;
+  margin: 0 0 20px;
+  font-size: 1.077em;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wpex-clr::after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.wpex__clear {
+  height: 30px;
+  width: 100%;
+  clear: both;
+}
+
+.image__left_box img {
+  width: 50px;
+  vertical-align: middle;
 }
 
 /* End Wrapper Section */
