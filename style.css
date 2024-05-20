@@ -624,6 +624,8 @@ header {
   border-radius: 5px !important;
   background-color: #1e73be !important;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .wpex_mr-20 {
