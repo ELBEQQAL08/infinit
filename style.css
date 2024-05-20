@@ -606,7 +606,7 @@ header {
 
 .vc__colm-sm-6 {
   position: relative;
-  min-height: 1px;
+  /* min-height: 1px; */
   box-sizing: border-box;
 }
 
@@ -624,7 +624,6 @@ header {
   border-radius: 5px !important;
   background-color: #1e73be !important;
   display: flex;
-  width: 100%;
 }
 
 .wpex_mr-20 {
@@ -660,8 +659,7 @@ header {
 }
 
 .vcex__icon-box-content p:last-child {
-  margin-bottom: 0;
-  margin: 0 0 20px;
+  line-height: 1.4;
   font-size: 1.077em;
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
@@ -681,8 +679,8 @@ header {
   clear: both;
 }
 
-.image__left_box img {
-  width: 50px;
+.wpex_mr-20 .image__left_box {
+  width: 33px;
   vertical-align: middle;
 }
 
