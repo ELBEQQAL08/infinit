@@ -624,6 +624,7 @@ header {
   border-radius: 5px !important;
   background-color: #1e73be !important;
   display: flex;
+  width: 100%;
 }
 
 .wpex_mr-20 {
