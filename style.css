@@ -623,7 +623,7 @@ header {
   padding-right: 11px !important;
   border-radius: 5px !important;
   background-color: #1e73be !important;
-  display: flex;
+  display: grid;
   width: 100%;
 }
 
@@ -666,7 +666,8 @@ header {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* .wpex-clr::after {
+/*
+.wpex-clr::after {
   content: "";
   display: block;
   height: 0;
