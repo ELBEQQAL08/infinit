@@ -616,7 +616,7 @@ header {
   display: table;
 }
 
-.flex__container {
+.grid__container {
   padding-top: 11px !important;
   padding-bottom: 11px !important;
   padding-left: 11px !important;
@@ -624,7 +624,30 @@ header {
   border-radius: 5px !important;
   background-color: #1e73be !important;
   display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 50px 50px;
+  grid-gap: 3px;
+  grid-template-areas:
+    ". h h h h h h h h h h ."
+    "m c c c c c c c c c c ."
+    ". f f f f f f f f f f .";
+  height: 100%;
   width: 100%;
+}
+
+.grid__container:nth-child(1) {
+  grid-area: h;
+}
+.grid__container:nth-child(2) {
+  grid-area: c;
+}
+
+.grid__container:nth-child(3) {
+  grid-area: m;
+}
+
+.grid__container:nth-child(4) {
+  grid-area: f;
 }
 
 .wpex_mr-20 {
