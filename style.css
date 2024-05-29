@@ -568,15 +568,15 @@ header {
 
 .container__grid {
   display: grid;
-  grid-template-columns: repeat(3, 100px);
   grid-template-rows: repeat(3, 100px);
+  grid-template-columns: repeat(3, 100px);
 }
 
 .box__1 {
-  padding-top: 12px !important;
-  padding-left: 12px !important;
-  padding-right: 12px !important;
-  padding-bottom: 12px !important;
+  padding-top: 11px !important;
+  padding-bottom: 11px !important;
+  padding-left: 11px !important;
+  padding-right: 11px !important;
   background-color: #1e73be !important;
   border-radius: 5px !important;
   width: 100%;
@@ -595,13 +595,37 @@ header {
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   text-align: right;
+  display: inline-block;
 }
 
 .box__1 p {
-  font-size: 15px;
+  font-size: 1.077em;
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
   color: wheat;
+  text-align: left;
+  padding-left: 1.5rem;
+}
+
+.box__mr {
+  margin-top: 4.5rem;
+}
+
+.box__mr_2 {
+  margin-top: 9rem;
+}
+
+.box__oth_mr {
+  margin-top: 14rem;
+}
+
+.fix__height {
+  height: auto;
+}
+
+.box__1 .img__big {
+  width: 30px;
+  vertical-align: middle;
 }
 
 /* End Wrapper Section */
