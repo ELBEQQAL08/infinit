@@ -635,21 +635,6 @@ header {
   width: 100%;
 }
 
-.grid__container:nth-child(1) {
-  grid-area: h;
-}
-.grid__container:nth-child(2) {
-  grid-area: c;
-}
-
-.grid__container:nth-child(3) {
-  grid-area: m;
-}
-
-.grid__container:nth-child(4) {
-  grid-area: f;
-}
-
 .wpex_mr-20 {
   margin-right: 20px;
 }
