@@ -1,3 +1,2 @@
-- [x] Fix Errors In Project
 - [ ] Working Section Box And In Mobile or Medium
 - [ ] Working Next Section Footer
