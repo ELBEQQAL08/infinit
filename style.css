@@ -517,6 +517,18 @@ header {
 
 /* Start Wrapper Section */
 
+.container__gen {
+  display: flex;
+}
+
+.section__left {
+  flex-shrink: 1;
+}
+
+.section__right img {
+  width: 380px;
+}
+
 .wrapper__background {
   position: absolute;
   overflow: hidden;
@@ -568,8 +580,8 @@ header {
 
 .container__grid {
   display: grid;
-  grid-template-columns: repeat(3, 100px);
-  grid-template-rows: repeat(3, 100px);
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
 }
 
 .box__1 {
@@ -579,9 +591,6 @@ header {
   padding-right: 11px !important;
   background-color: #1e73be !important;
   border-radius: 5px !important;
-  width: 100%;
-  height: 145%;
-  grid-column: 1 / -1;
 }
 
 .box__1 img {
@@ -605,22 +614,6 @@ header {
   color: white;
   text-align: left;
   padding-left: 1.5rem;
-}
-
-.box__mr {
-  margin-top: 4.5rem;
-}
-
-.box__mr_2 {
-  margin-top: 9rem;
-}
-
-.box__oth_mr {
-  margin-top: 14rem;
-}
-
-.fix__height {
-  height: auto;
 }
 
 .box__1 .img__big {
@@ -997,6 +990,19 @@ header {
 
   /* Wrapper Section */
 
+  .container__gen {
+    display: block;
+  }
+
+  .section__left {
+    flex-shrink: 1;
+  }
+
+  .section__right img {
+    width: 380px;
+    vertical-align: middle;
+  }
+
   .title__heading {
     display: inline-block;
     padding-top: 2.5rem !important;
@@ -1016,7 +1022,7 @@ header {
 
   .container__grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
 }
