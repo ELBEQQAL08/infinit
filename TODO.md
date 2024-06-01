@@ -1,2 +1,2 @@
-- [ ] Working Section Box And In Mobile or Medium
+- [x] Working Section Box And In Mobile or Medium
 - [ ] Working Next Section Footer
