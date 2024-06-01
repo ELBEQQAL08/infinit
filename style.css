@@ -685,8 +685,8 @@ header {
 
 .icons__right li img {
   margin-right: 0.5rem;
-  cursor: pointer;
   margin-top: 0.5rem;
+  cursor: pointer;
 }
 
 .section__bottom {
