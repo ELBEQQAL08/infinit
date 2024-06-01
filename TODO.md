@@ -1,2 +1,3 @@
 - [x] Working Section Box And In Mobile or Medium
 - [ ] Working Next Section Footer
+- [ ] Fixed Error Icons In Footer

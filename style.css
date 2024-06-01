@@ -630,7 +630,7 @@ header {
   display: block;
   background-color: #1e73be;
   color: #ffffff;
-  height: 345px;
+  height: 255px;
 }
 
 .container__g {
@@ -640,7 +640,7 @@ header {
 .container_logo img {
   vertical-align: middle;
   width: 160px;
-  padding-top: 4rem;
+  padding-top: 2.5rem;
 }
 
 .section__top {
@@ -670,6 +670,8 @@ header {
 
 .icons__left li p,
 .icons__left li a {
+  /* margin-top: 1rem; */
+  /* margin-bottom: 1rem; */
   font-size: 15px;
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
@@ -683,6 +685,39 @@ header {
 
 .icons__right li img {
   margin-right: 0.5rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.section__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #361fc6;
+  height: 55.5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+
+.section__bottom h1 {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20rem;
+}
+
+.section__bottom h1 span {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #616161;
+  cursor: pointer;
+}
+
+.section__bottom h1 span:hover {
+  color: white;
 }
 
 /* End Footer Section */
@@ -1093,4 +1128,8 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
+  /* Start Footer Section */
+
+  /* End Footer Section */
 }
