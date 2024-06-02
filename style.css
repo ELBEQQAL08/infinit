@@ -760,6 +760,35 @@ header {
 
 /* Start Services Page */
 
+.container__generale {
+  display: flex;
+  justify-content: center;
+}
+
+.section__left {
+  display: inline-block;
+}
+
+.section__left img {
+  padding-top: 5rem;
+  width: 515px;
+  vertical-align: middle;
+}
+
+.section__right span {
+  font-size: 1.077em;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #243e85;
+  border-radius: 9999px;
+  background-color: #d5dff1;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+  display: inline-block;
+}
+
 /* End Services Page */
 
 @media screen and (min-width: 300px) and (max-width: 700px) {

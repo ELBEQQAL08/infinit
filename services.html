@@ -7,14 +7,72 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Start Header -->
+
+    <header class="container">
+      <nav class="nav-mob">
+        <div class="logo-mob">
+          <img src="./images/logo.png" alt="logo" title="logo" />
+        </div>
+        <div>
+          <a href="#" class="active">Home</a>
+          <a href="services.html">Services</a>
+          <a href="#" class="btn" onclick="check()">Get Started</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- End Header -->
+
+    <!-- Start Header Mob -->
+
+    <div class="header-mob">
+      <nav class="nav-mob">
+        <div>
+          <img src="./images/logo.png" alt="logo" title="logo" />
+        </div>
+        <div>
+          <img
+            src="./images/menu.png"
+            alt="icon-menu"
+            title="icon-menu"
+            class="menu menu-display"
+          />
+        </div>
+      </nav>
+      <div
+        class="links-visible-mob links__trans_mob links-mob__container links__hidden"
+      >
+        <a href="#" class="active">Home</a>
+        <a href="services.html">Services</a>
+        <a href="#">Get Started</a>
+        <img
+          src="./images/close.png"
+          alt="icon-close"
+          title="icon-close"
+          class="close close-display"
+        />
+      </div>
+    </div>
+
+    <!-- End Header Mob -->
+
     <!-- Start First Section -->
-    <section>
+
+    <section class="first__section">
       <div class="container">
-        <div class="left__section">
-          <img src="./images/business.png" alt="business" title="business" />
+        <div class="container__generale">
+         <div class="section__left">
+            <img src="./images/business.png" alt="business" title="business" />
+         </div>
+          <div class="section__right">
+            <span>Let's Grow Together</span>
+        </div>
         </div>
       </div>
-    </section>
+     </div>
+   </section>
+
     <!-- End First Section -->
 
     <script src="./app.js" defer></script>
