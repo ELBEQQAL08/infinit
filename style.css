@@ -630,7 +630,7 @@ header {
   display: block;
   background-color: #1e73be;
   color: #ffffff;
-  height: 255px;
+  height: 265px;
 }
 
 .container__g {
@@ -638,8 +638,9 @@ header {
 }
 
 .container_logo img {
+  align-self: end;
   vertical-align: middle;
-  width: 160px;
+  width: 165px;
   padding-top: 2.5rem;
 }
 
@@ -661,32 +662,67 @@ header {
 
 .icons__left ul li {
   list-style: none;
+  display: grid;
+  grid-template-columns: 30px 1fr;
 }
 
-.icons__left li img {
-  width: 22px;
-  vertical-align: middle;
+.icons__left li svg,
+.icons__left li path {
+  width: 14px;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  fill: currentColor;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.icons__left li svg,
+.icons__left li path:hover {
+  transform: translateY(-15%);
 }
 
 .icons__left li p,
 .icons__left li a {
-  /* margin-top: 1rem; */
-  /* margin-bottom: 1rem; */
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   font-size: 15px;
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
+  line-height: 1.4;
   text-decoration: none;
 }
 
 .icons__right {
-  flex: 0 1 auto;
+  row-gap: 30px;
 }
 
-.icons__right li img {
-  margin-right: 0.5rem;
-  margin-top: 0.5rem;
+.icons__right h1 {
+  font-size: 1.077em;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+.icons__right ul li {
+  list-style: none;
+}
+
+.icons__right li svg,
+.icons__right li path {
+  width: 15px;
   cursor: pointer;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  fill: currentColor;
+  color: white;
+  transition: 0.3s;
+}
+
+.icons__right li svg,
+.icons__right li path:hover {
+  transform: translateY(-15%);
 }
 
 .section__bottom {
@@ -721,6 +757,10 @@ header {
 }
 
 /* End Footer Section */
+
+/* Start Services Page */
+
+/* End Services Page */
 
 @media screen and (min-width: 300px) and (max-width: 700px) {
   /* Header */
@@ -1131,5 +1171,49 @@ header {
 
   /* Start Footer Section */
 
+  .footer {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+  }
+
+  .container__g {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .section__top {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 40px;
+  }
+
+  .container_logo img {
+    width: 165px;
+    vertical-align: middle;
+  }
+
+  .icons__left {
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 17px;
+  }
+
+  .icons__right {
+    padding: 25px;
+    padding-top: 0;
+  }
+
+  .section__bottom h1 {
+    padding-left: 1rem !important;
+    border-radius: 0;
+  }
+
   /* End Footer Section */
+
+  /* Start Services Page */
+
+  /* End Services Page */
 }
