@@ -770,12 +770,6 @@ header {
   display: inline-block;
 }
 
-.section__left img {
-  padding-top: 5rem;
-  width: 515px;
-  vertical-align: middle;
-}
-
 .section__right span {
   font-size: 1.077em;
   font-weight: 500;
