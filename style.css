@@ -870,6 +870,33 @@ header {
 
 /* End Second Section */
 
+/* Start Tree Section */
+
+.custom__background {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom__background svg {
+  position: relative;
+  display: block;
+  width: calc(276% + 1.3px);
+  height: 400px;
+}
+
+.custom__background .shape-fill {
+  fill: #f7f8fa;
+}
+
+.containner__genr {
+  min-height: 50vh;
+}
+
+/* End Tree Section */
+
 /* End Services Page */
 
 @media screen and (min-width: 300px) and (max-width: 700px) {
@@ -1344,6 +1371,15 @@ header {
   }
 
   /* Second Section Page */
+
+  .container__grid_icon {
+    display: flex;
+  }
+
+  .section__left__icons {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
   /* End Services Page */
 }
