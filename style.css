@@ -827,15 +827,23 @@ header {
 
 .container__grid_icon {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section__left__icons {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 65px;
+}
+
+.box__icon {
+  display: inline-block;
 }
 
 .box__icon svg {
   width: 40px;
+  vertical-align: middle;
 }
 
 .box__icon h1 {
@@ -857,6 +865,7 @@ header {
 .section__right__icons {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 
 /* End Second Section */
