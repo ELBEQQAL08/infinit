@@ -581,7 +581,7 @@ header {
 .container__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 30px;
+  /* grid-gap: 30px; */
 }
 
 .box__1 {
@@ -776,7 +776,7 @@ header {
 }
 
 .section__left img {
-  width: 500px;
+  /* width: 500px; */
 }
 
 .section__right {
