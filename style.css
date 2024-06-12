@@ -560,7 +560,7 @@ header {
 
 .title__heading span {
   font-size: 75px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
 }
@@ -581,7 +581,7 @@ header {
 .container__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* grid-gap: 30px; */
+  grid-gap: 30px;
 }
 
 .box__1 {
@@ -600,7 +600,7 @@ header {
 
 .box__1 h1 {
   color: white;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   text-align: right;
@@ -775,8 +775,8 @@ header {
   display: inline-block;
 }
 
-.section__left img {
-  /* width: 500px; */
+.section__left__sp img {
+  width: 500px;
 }
 
 .section__right {
@@ -834,11 +834,11 @@ header {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.section__left__icons svg {
-  width: 50px;
+.box__icon svg {
+  width: 40px;
 }
 
-.section__left__icons h1 {
+.box__icon h1 {
   font-size: 25px;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
@@ -846,16 +846,13 @@ header {
   margin-bottom: 1rem;
 }
 
-.section__left__icons p {
+.box__icon p {
   font-size: 15px;
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
   color: #616161;
   margin-bottom: 1rem;
 }
-
-/* .box__icon {
-} */
 
 .section__right__icons {
   display: grid;
@@ -1257,7 +1254,7 @@ header {
   }
 
   .title__heading span {
-    font-size: 2.7em;
+    font-size: 2.2em !important;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -1329,11 +1326,11 @@ header {
     padding-left: 0;
   }
 
-  .section__left {
+  .section__left__sp {
     display: inline-block;
   }
 
-  .section__left img {
+  .section__left__sp img {
     width: 100%;
   }
 
