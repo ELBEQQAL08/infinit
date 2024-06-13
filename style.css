@@ -1012,7 +1012,84 @@ header {
   background-color: #637fc7;
 }
 
+.box__back {
+  background-color: #d5dff1;
+}
+
+.box__s .mr-b-0 {
+  padding-bottom: 0;
+}
+
 /* End Tree Section */
+
+/* Start List Box Section */
+
+.section__top_l {
+  display: grid;
+  padding-top: 14rem;
+}
+
+.section__top_l h1 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.section__top_l p {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #616161;
+}
+
+.section__bottom_l {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.box__f {
+  background-color: #ffffff;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  padding: 40px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.box__f h1 {
+  color: #496bbf;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  padding-bottom: 0.2em;
+}
+
+.box__f .back__edge {
+  font-size: 2em;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  background-color: #496bbf;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.box__f p {
+  font-size: 1em;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #616161;
+  padding-top: 16px;
+  line-height: 1.6;
+}
+
+.box__f p .s_c_l {
+  color: #6b717a;
+  font-weight: 700;
+}
+
+/* End List Box Section */
 
 /* End Services Page */
 
@@ -1496,6 +1573,25 @@ header {
   .section__left__icons {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* Tree Section */
+
+  .container__box_s {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 33px;
+  }
+
+  /* List Box Section */
+
+  .section__top_l {
+    text-align: center;
+    display: inline-block;
+  }
+
+  .section__bottom_l {
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 33px;
   }
 
   /* End Services Page */
