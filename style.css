@@ -839,6 +839,7 @@ header {
 
 .box__icon {
   display: inline-block;
+  text-align: center;
 }
 
 .box__icon svg {
@@ -851,6 +852,7 @@ header {
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
+  padding-top: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -873,26 +875,7 @@ header {
 /* Start Tree Section */
 
 .custom__background {
-  position: absolute;
-  left: 0;
   width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom__background svg {
-  position: relative;
-  display: block;
-  width: calc(276% + 1.3px);
-  height: 400px;
-}
-
-.custom__background .shape-fill {
-  fill: #f7f8fa;
-}
-
-.containner__genr {
-  min-height: 50vh;
 }
 
 /* End Tree Section */
