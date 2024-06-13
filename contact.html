@@ -3,28 +3,141 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact | Infinitistar</title>
+    <title>Contact - Infinitistar</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Start NavBar Section -->
+
+    <header class="container">
+      <nav class="nav-mob">
+        <div class="logo-mob">
+          <img src="./images/logo.png" alt="logo" title="logo" />
+        </div>
+        <div>
+          <a href="index.html" class="active">Home</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html" class="btn" onclick="check()">Get Started</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- End NavBar Section -->
+
+    <!-- Start NavBar Mob Section -->
+
+    <div class="header-mob">
+      <nav class="nav-mob">
+        <div>
+          <img src="./images/logo.png" alt="logo" title="logo" />
+        </div>
+        <div>
+          <img
+            src="./images/menu.png"
+            alt="icon-menu"
+            title="icon-menu"
+            class="menu menu-display"
+          />
+        </div>
+      </nav>
+      <div
+        class="links-visible-mob links__trans_mob links-mob__container links__hidden"
+      >
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Get Started</a>
+        <img
+          src="./images/close.png"
+          alt="icon-close"
+          title="icon-close"
+          class="close close-display"
+        />
+      </div>
+    </div>
+
+    <!-- End NavBar Mob Section -->
+
     <!-- Start First Section -->
 
     <section class="first__section">
       <div class="container">
         <div class="generique__container">
           <div class="section__f_s">
-            <h1></h1>
-            <p></p>
-            <h1></h1>
-            <p></p>
-            <h1></h1>
-            <p></p>
+            <div class="info__1">
+              <h1>For general inquiries:</h1>
+              <p>support@example.com</p>
+            </div>
+            <div class="info__2">
+              <h1>For press and marketing:</h1>
+              <p>media@example.com</p>
+            </div>
+            <div class="info__3">
+              <h1>Our Address:</h1>
+              <p>Storey Ave, San Francisco, CA 94129</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- End First Section -->
+
+    <!-- Start Two Section -->
+
+    <section class="Two__Section">
+      <div class="container">
+        <div class="generique__container">
+          <div class="custom__background">
+            <svg
+              class="wpex-shape-divider-svg"
+              style="height: 70px"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1000 100"
+              preserveAspectRatio="none"
+            >
+              <path
+                class="wpex-shape-divider-path"
+                fill="#fff"
+                d="M1000,4.3V0H0v4.3C0.9,23.1,126.7,99.2,500,100S1000,22.7,1000,4.3z"
+              ></path>
+            </svg>
+          </div>
+          <div class="section__top__t">
+            <h1>Send us a Message</h1>
+            <p>
+              If you wish to send us a private message you can use the form
+              below. Make sure to include all the details <br />
+              of your project and our staff will get back to you as soon as
+              possible.
+            </p>
+          </div>
+          <div class="section__bottom__t">
+            <form>
+              <div class="inputs">
+                <input
+                  type="name"
+                  placeholder="Your Name (required)"
+                  required
+                />
+                <input
+                  type="email"
+                  placeholder="Your Email (required)"
+                  required
+                />
+                <textarea
+                  name="message"
+                  placeholder="message"
+                  required
+                ></textarea>
+              </div>
+              <button class="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Two Section -->
 
     <script src="app.js"></script>
   </body>
