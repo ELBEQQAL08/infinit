@@ -954,6 +954,7 @@ header {
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
+  padding-bottom: 1.5rem;
 }
 
 .box__s .dollar {
@@ -970,12 +971,45 @@ header {
   color: #243e85;
 }
 
+.box__s ul {
+  padding-top: 1.5rem;
+}
+
 .box__s ul li {
   list-style: none;
   font-size: 16px;
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
+  line-height: 1.8;
+  background-image: url(./images/bullets-check.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  text-align: center;
+  padding-left: 0.5rem;
+}
+
+.box__s p {
+  font-size: 15.5px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  padding-bottom: 2rem;
+}
+
+.box__s a {
+  font-size: 1em;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: #243e85;
+  text-decoration: none;
+  border-radius: 9999px;
+  padding: 25px;
+}
+
+.box__s a:hover {
+  background-color: #637fc7;
 }
 
 /* End Tree Section */
