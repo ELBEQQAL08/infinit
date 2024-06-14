@@ -112,25 +112,19 @@
             </p>
           </div>
           <div class="section__bottom__t">
-            <form>
-              <div class="inputs">
-                <input
-                  type="name"
-                  placeholder="Your Name (required)"
-                  required
-                />
-                <input
-                  type="email"
-                  placeholder="Your Email (required)"
-                  required
-                />
-                <textarea
-                  name="message"
-                  placeholder="message"
-                  required
-                ></textarea>
-              </div>
-              <button class="submit">Submit</button>
+            <form onsubmit="SendEmail()">
+              <input type="name" placeholder="Your Name (required)" required />
+              <input
+                type="email"
+                placeholder="Your Email (required)"
+                required
+              />
+              <textarea
+                name="message"
+                placeholder="Message"
+                required
+              ></textarea>
+              <button type="submit">Submit</button>
             </form>
           </div>
         </div>
@@ -139,6 +133,7 @@
 
     <!-- End Two Section -->
 
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="app.js"></script>
   </body>
 </html>

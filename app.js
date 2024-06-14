@@ -54,3 +54,17 @@ const typeEffect = () => {
 };
 
 typeEffect();
+
+// Two Section Function
+
+function SendEmail() {
+  Email.send({
+    Host: "smtp.yourisp.com",
+    Usernale: "Username",
+    Password: "password",
+    To: "them@website.com",
+    From: "you@isp.com",
+    Subject: "This is the subject",
+    Body: "And This is the body",
+  }).then((message) => alert(message));
+}

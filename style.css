@@ -1185,34 +1185,52 @@ header {
   color: #616161;
 }
 
-.section__bottom__b {
+.section__bottom__t {
   display: flex;
-  flex-wrap: wrap;
-}
-
-.section__bottom__b form {
-  border: 0;
-  flex-grow: 1;
-  font-size: inherit;
-  font-weight: inherit;
-  font-family: inherit;
-}
-
-.section__bottom__b form input[type="Name"],
-.section__bottom__b form input[type="Email"],
-.section__bottom__b form textarea {
-  max-width: 100%;
-  text-align: center;
-  line-height: 1.6;
-  padding: 6px 10px;
-  border: 1px solid #e0e0e0;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
 
-.section__bottom__b form input[type="Name"]::placeholder,
-.section__bottom__b form input[type="Email"]::placeholder,
-.section__bottom__b form textarea::placeholder {
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 700px;
+  text-align: center;
+}
+
+form input,
+form textarea {
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  outline: none;
+  margin: 17px 0;
+  padding: 20px;
+}
+
+form input::placeholder,
+form textarea::placeholder {
   color: #616161;
+}
+
+form button[type="submit"] {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: #2554ed;
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+}
+
+form button[type="submit"]:hover {
+  background-color: #496bbf;
 }
 
 /* End Contact Page */
