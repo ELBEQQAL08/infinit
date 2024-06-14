@@ -1207,7 +1207,7 @@ form textarea {
   border: 1px solid #e0e0e0;
   border-radius: 3px;
   outline: none;
-  margin: 17px 0;
+  margin: 10px 0;
   padding: 20px;
 }
 
@@ -1231,6 +1231,18 @@ form button[type="submit"] {
 
 form button[type="submit"]:hover {
   background-color: #496bbf;
+}
+
+/* Tree Section */
+
+.section__right svg {
+  width: 30px;
+  vertical-align: middle;
+  padding-top: 1rem;
+  margin-right: 1rem;
+  fill: currentColor;
+  color: #243e85;
+  cursor: pointer;
 }
 
 /* End Contact Page */
@@ -1759,6 +1771,27 @@ form button[type="submit"]:hover {
   .section__f_s .info__2 p,
   .section__f_s .info__3 p {
     padding-bottom: 2rem;
+  }
+
+  /* Two Section */
+
+  form textarea {
+    width: 100%;
+  }
+
+  /* Tree Section */
+
+  .section__right__mob {
+    padding-left: 30px;
+  }
+
+  .section__right__mob svg {
+    padding-top: 1rem;
+  }
+
+  .section__left__sp__mob {
+    padding-top: 2.5rem;
+    padding-left: 30px;
   }
 
   /* End Contact Page */
