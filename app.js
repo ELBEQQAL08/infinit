@@ -57,11 +57,13 @@ typeEffect();
 
 // Two Section
 
-const Form = document.querySelector(".form__js");
-const btn__submit = document.querySelector(".submit");
+const btn__submit = document.querySelector("#btn__event");
+const input__text = document.querySelector(".input__txt");
 
-Form.SendEmail(value);
+function ShowValue() {
+  console.log(input__text.value);
+}
 
-btn__submit.addEventListener('submit', button {
-  Form.value = 
+btn__submit.addEventListener("click", () => {
+  ShowValue();
 });

@@ -117,19 +117,26 @@
             </p>
           </div>
           <div class="section__bottom__t">
-            <form onsubmit="SendEmail()" class="form__js">
-              <input type="name" placeholder="Your Name (required)" required />
+            <form>
+              <input
+                type="name"
+                placeholder="Your Name (required)"
+                required
+                class="input__txt"
+              />
               <input
                 type="email"
                 placeholder="Your Email (required)"
                 required
+                class="input__txt"
               />
               <textarea
                 name="message"
                 placeholder="Message"
                 required
+                class="input__txt"
               ></textarea>
-              <button type="submit" class="submit">Submit</button>
+              <button id="btn__event" onclick="ShowValue()">Submit</button>
             </form>
           </div>
         </div>

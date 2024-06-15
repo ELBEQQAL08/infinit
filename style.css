@@ -1217,7 +1217,7 @@ form textarea::placeholder {
   color: #616161;
 }
 
-form button[type="submit"] {
+form #btn__event {
   font-size: 15px;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
