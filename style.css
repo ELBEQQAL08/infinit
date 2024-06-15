@@ -1245,6 +1245,10 @@ form button[type="submit"]:hover {
   cursor: pointer;
 }
 
+.section__right svg:hover {
+  transform: translateY(-50%);
+}
+
 /* End Contact Page */
 
 @media screen and (min-width: 300px) and (max-width: 700px) {
