@@ -62,6 +62,6 @@ const btn__submit = document.querySelector(".submit");
 
 Form.SendEmail(value);
 
-btn__submit.addEventListener("submit", Form, () => {
-  Form.innerHTML = console.log.value;
+btn__submit.addEventListener('submit', button {
+  Form.value = 
 });
