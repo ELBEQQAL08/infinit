@@ -55,3 +55,13 @@ const typeEffect = () => {
 
 typeEffect();
 
+// Two Section
+
+const Form = document.querySelector(".form__js");
+const btn__submit = document.querySelector(".submit");
+
+Form.SendEmail(value);
+
+btn__submit.addEventListener("submit", Form, () => {
+  Form.innerHTML = console.log.value;
+});
