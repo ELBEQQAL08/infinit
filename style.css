@@ -1220,10 +1220,6 @@ form textarea::placeholder {
 .btn__container {
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
-  width: 90%;
-  max-width: 700px;
-  text-align: center;
 }
 
 .btn__container #btn__event {
