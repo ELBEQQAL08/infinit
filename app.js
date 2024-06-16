@@ -72,13 +72,7 @@ btn__submit.addEventListener("click", () => {
   ShowValue();
 });
 
-function ErrorValue() {
-  try {
-    input__text_1.value = value;
-    input__text_2.value = value;
-    input__text_3.value = value;
-  } catch (e) {
-    btn__submit.value =
-      "An error occurred while sending the message. please try again";
-  }
-}
+input__text_1.addEventListener("click", (e) => {
+  e.parentElement();
+  validateInputs();
+});
