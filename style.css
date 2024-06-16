@@ -1220,6 +1220,7 @@ form textarea::placeholder {
 .btn__container {
   display: flex;
   flex-direction: column;
+  padding-top: 1em;
 }
 
 .btn__container #btn__event {
