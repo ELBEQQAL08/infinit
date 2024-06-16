@@ -73,9 +73,6 @@ header {
 
 .wrapper {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
 }
 
 .left__section h1 {
@@ -254,8 +251,6 @@ header {
 
 .wrapper__2 {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .second__section {
@@ -281,6 +276,7 @@ header {
 
 .left__section_2 h1 {
   font-weight: 500;
+  line-height: 1;
 }
 
 .left__section_2 p {
@@ -384,8 +380,6 @@ header {
 
 .wrapper__next {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .left-section_2 img {
@@ -475,8 +469,7 @@ header {
 
 .wrapper__bigg {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding-top: 4rem;
 }
 
 .left__section_bigg h1 {
@@ -1332,10 +1325,7 @@ form textarea::placeholder {
   /* Second Section */
 
   .wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    display: grid;
   }
 
   .container__mob {
@@ -1514,10 +1504,7 @@ form textarea::placeholder {
   }
 
   .wraper_hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    display: grid;
   }
 
   .left-section p {
@@ -1537,6 +1524,10 @@ form textarea::placeholder {
     height: 320px;
   }
 
+  .btn__1 {
+    margin-top: 0;
+  }
+
   /* Next Section */
 
   .left-section_2 img {
@@ -1545,10 +1536,7 @@ form textarea::placeholder {
   }
 
   .wrapper__next {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    display: grid;
   }
 
   .right-section h1 {
@@ -1592,10 +1580,7 @@ form textarea::placeholder {
   /* Bigg Section */
 
   .wrapper__bigg {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    display: grid;
   }
 
   .left__section_bigg h1 {

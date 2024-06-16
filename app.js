@@ -74,15 +74,11 @@ btn__submit.addEventListener("click", () => {
 
 function ErrorValue() {
   try {
-    input__text_1.value;
-    input__text_2.value;
-    input__text_3.value;
+    input__text_1.value = value;
+    input__text_2.value = value;
+    input__text_3.value = value;
   } catch (e) {
-    input__text_1.value =
-      "An error occurred while sending the message. please try again";
-    input__text_2.value =
-      "An error occurred while sending the message. please try again";
-    input__text_3.value =
+    btn__submit.value =
       "An error occurred while sending the message. please try again";
   }
 }
