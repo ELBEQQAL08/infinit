@@ -1191,12 +1191,12 @@ header {
   justify-content: center;
   align-items: center;
   width: 100%;
+  flex-direction: column;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  padding: 2vw 4vw;
   border-radius: 10px;
   width: 90%;
   max-width: 700px;
@@ -1217,7 +1217,16 @@ form textarea::placeholder {
   color: #616161;
 }
 
-form #btn__event {
+.btn__container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 700px;
+  text-align: center;
+}
+
+.btn__container #btn__event {
   font-size: 15px;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
@@ -1230,7 +1239,7 @@ form #btn__event {
   border: 0;
 }
 
-form button[type="submit"]:hover {
+.btn__container #btn__event:hover {
   background-color: #496bbf;
 }
 

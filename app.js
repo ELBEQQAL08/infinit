@@ -58,10 +58,14 @@ typeEffect();
 // Two Section
 
 const btn__submit = document.querySelector("#btn__event");
-const input__text = document.querySelector(".input__txt");
+const input__text_1 = document.querySelector(".class__1");
+const input__text_2 = document.querySelector(".class__2");
+const input__text_3 = document.querySelector(".class__3");
 
 function ShowValue() {
-  console.log(input__text.value);
+  console.log(input__text_1.value);
+  console.log(input__text_2.value);
+  console.log(input__text_3.value);
 }
 
 btn__submit.addEventListener("click", () => {
