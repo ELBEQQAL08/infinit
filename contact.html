@@ -117,27 +117,32 @@
             </p>
           </div>
           <div class="section__bottom__t">
-            <form>
+            <form class="form__input" onsubmit="showError" onsubmit="clearError">
+              <p class="success register-success">Your registration was successful.</p>
               <input
                 type="name"
                 placeholder="Your Name (required)"
                 required
                 class="class__1"
               />
+              <p class="error name-error">You have to enter your name</p>
               <input
                 type="email"
                 placeholder="Your Email (required)"
                 required
                 class="class__2"
               />
+              <p class="error email-error">You have to enter your email</p>
               <textarea
                 name="message"
                 placeholder="Message"
                 required
                 class="class__3"
               ></textarea>
-            <div class="btn__container">
-                <button id="btn__event" onclick="ShowValue()" ondblclick="ErrorValue()">Submit</button>
+              <p class="error message-error">You have to enter your message</p>
+              <p class="error register-error">I'm sorry if you want info</p>
+              <div class="btn__container">
+                <button type="submit" id="btn__event" onclick="showValue">Submit</button>
             </div>
             </form>
         </div>
