@@ -1205,6 +1205,14 @@ form textarea {
   padding: 20px;
 }
 
+form input:hover {
+  border-color: #0074ff;
+}
+
+form textarea:hover {
+  border-color: #0074ff;
+}
+
 form input::placeholder,
 form textarea::placeholder {
   color: #616161;
