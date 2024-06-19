@@ -70,7 +70,6 @@ function showValue(event) {
   console.log(input__text_2.value);
   console.log(input__text_3.value);
   event.preventDefault();
-  clearError();
 }
 
 btn__submit.addEventListener("click", showValue);
@@ -90,6 +89,8 @@ function clearError() {
 }
 
 form__Input.onsubmit = function (event) {
+  clearError();
+
   if (form__Input.name.value === "") {
     showError("name-error", "You have to enter your name");
     return false;
