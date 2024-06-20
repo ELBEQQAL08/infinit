@@ -1,5 +1,3 @@
-- 1 [x] Working Contact Page With Mobile And Meduim
-- 2 [x] Working Event Submit In Section Contact Page
-- 3 [x] Fixe Errors In Project
-- 4 [ ] Working Message Error In Contact And Working Form Validation
-- 5 [ ] Working Cercle With Javascript
+- 1 [ ] Working Message Error In Contact And Working Form Validation
+- 2 [ ] Working Cercle With Javascript
+- 3 [ ] Host Project
