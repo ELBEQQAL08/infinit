@@ -1296,6 +1296,28 @@ form textarea::placeholder {
 
 /* End Contact Page */
 
+/* Start Cercle Using Javascript */
+
+.top__progress {
+  background-color: #1e73be;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  height: 70px;
+  width: 70px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.top__progress__value img {
+  width: 30px;
+  height: 30px;
+}
+
+/* End Cercle Using Javascript */
+
 @media screen and (min-width: 300px) and (max-width: 700px) {
   /* Header */
 

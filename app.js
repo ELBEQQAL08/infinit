@@ -114,3 +114,16 @@ btn__submit.onclick = function (event) {
 };
 
 // Cercle Top Direction
+
+let calcScrollValue = () => {
+  const scrollProgress = document.querySelector(".top__progress");
+  const progressValue = document.querySelector(".top__progress__value");
+  const pos = document.documentElement.scrollTop;
+  const calcHeight =
+    document.documentElement.scrollHeight -
+    document.documentElement.clientHeight;
+  console.log(calcHeight);
+};
+
+window.onscroll = calcScrollValue;
+window.onload = calcScrollValue;
