@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Global Classes */
 
 .container {
@@ -1305,7 +1309,7 @@ form textarea::placeholder {
   right: 10px;
   height: 70px;
   width: 70px;
-  display: grid;
+  display: none;
   place-items: center;
   border-radius: 50%;
   cursor: pointer;

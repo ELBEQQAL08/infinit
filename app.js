@@ -116,13 +116,21 @@ btn__submit.onclick = function (event) {
 // Cercle Top Direction
 
 let calcScrollValue = () => {
-  const scrollProgress = document.querySelector(".top__progress");
-  const progressValue = document.querySelector(".top__progress__value");
-  const pos = document.documentElement.scrollTop;
-  const calcHeight =
+  let scrollProgress = document.querySelector(".top__progress");
+  let progressValue = document.querySelector(".top__progress__value");
+  let pos = document.documentElement.scrollTop;
+  let calcHeight =
     document.documentElement.scrollHeight -
     document.documentElement.clientHeight;
-  console.log(calcHeight);
+  let scrollValue = Math.round((pos * 100) / calcHeight);
+  if (pos > 100) {
+    scrollProgress.style.display = "grid";
+  } else {
+    scrollProgress.style.display = "none";
+  }
+  scrollProgress.addEventListener("click", () => {
+    document.documentElement.scrollTop = 0;
+  });
 };
 
 window.onscroll = calcScrollValue;
