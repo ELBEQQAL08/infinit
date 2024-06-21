@@ -1194,6 +1194,7 @@ form {
   width: 90%;
   max-width: 700px;
   text-align: center;
+  cursor: pointer;
 }
 
 form input,
@@ -1224,7 +1225,7 @@ form textarea::placeholder {
   padding-top: 1em;
 }
 
-.btn__container #btn__event {
+.btn__container #btn__event[type="submit"] {
   font-size: 15px;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
@@ -1232,13 +1233,13 @@ form textarea::placeholder {
   background-color: #2554ed;
   padding: 20px;
   border-radius: 5px;
-  cursor: pointer;
   outline: none;
   border: 0;
 }
 
-.btn__container #btn__event:hover {
+.btn__container #btn__event[type="submit"]:hover {
   background-color: #496bbf;
+  cursor: pointer;
 }
 
 .error {
@@ -1250,16 +1251,26 @@ form textarea::placeholder {
 
 .error.display-error {
   display: block;
+  margin-top: 34px;
   margin-bottom: 20px;
   transform: translateY(-20px);
+  font-size: 1.077em;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
 }
 
 .success {
+  margin-top: 30px;
   margin-bottom: 30px;
   color: green;
-  background-color: #d2ffd2;
+  background-color: greenyellow;
   padding: 10px;
   display: none;
+  font-size: 1.077em;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
 }
 
 .success.display-success {

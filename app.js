@@ -88,20 +88,20 @@ function clearError() {
   }
 }
 
-form__Input.onsubmit = function (event) {
+btn__submit.onclick = function (event) {
   clearError();
 
-  if (form__Input.name.value === "") {
+  if (input__text_1.value === "") {
     showError("name-error", "You have to enter your name");
     return false;
   }
 
-  if (form__Input.email.value === "") {
+  if (input__text_2.value === "") {
     showError("email-error", "You have to enter your email");
     return false;
   }
 
-  if (form__Input.message.value === "") {
+  if (input__text_3.value === "") {
     showError("message-error", "You have to enter your message");
     return false;
   }
