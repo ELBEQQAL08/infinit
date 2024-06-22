@@ -1302,7 +1302,7 @@ form textarea::placeholder {
 
 /* Start Cercle Using Javascript */
 
-.top__progress {
+#top__progress {
   background-color: #1e73be;
   position: fixed;
   bottom: 20px;
@@ -1315,12 +1315,14 @@ form textarea::placeholder {
   cursor: pointer;
 }
 
-.top__progress__value img {
+#top__progress__value img {
   width: 30px;
   height: 30px;
 }
 
 /* End Cercle Using Javascript */
+
+/* By Kamal El Beqqal */
 
 @media screen and (min-width: 300px) and (max-width: 700px) {
   /* Header */
@@ -1866,4 +1868,6 @@ form textarea::placeholder {
   /* Start Cerle Using Javascript */
 
   /* End Cercle Using Javascript */
+
+  /* By Kamal El Beqqal */
 }
