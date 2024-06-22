@@ -1427,7 +1427,7 @@ form textarea::placeholder {
 
   .left__section h1 span::before {
     content: "";
-    font-size: 3.5rem !important;
+    font-size: 3rem !important;
     text-align: center;
     animation: blink 0.7s infinite;
   }
@@ -1439,11 +1439,17 @@ form textarea::placeholder {
   .left__section p {
     font-size: 1rem;
     margin-left: 0.5rem;
+    padding-bottom: 1rem;
+    line-height: 1.8;
+  }
+
+  .left-section_2 p {
+    margin-bottom: 12px;
   }
 
   .btn__1 {
     margin-left: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     padding: 1rem 2rem;
     width: 100%;
   }
@@ -1612,7 +1618,7 @@ form textarea::placeholder {
   /* Next Section */
 
   .left-section_2 img {
-    margin-top: 3rem;
+    margin-top: 0;
     height: 314px;
   }
 
@@ -1621,12 +1627,13 @@ form textarea::placeholder {
   }
 
   .right-section h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
   }
 
   .right-section p {
     text-align: center;
+    margin-bottom: 1.5rem;
   }
 
   .right-section ul {
@@ -1646,10 +1653,12 @@ form textarea::placeholder {
     width: 100%;
     height: 325px;
     padding-right: 0;
+    margin-top: 1rem;
   }
 
   .right-section_3 h1 {
     margin-top: 15px;
+    font-size: 3rem !important;
   }
 
   .right-section_3 .btn-cg__small-1 {
@@ -1665,7 +1674,7 @@ form textarea::placeholder {
   }
 
   .left__section_bigg h1 {
-    font-size: 3.4rem;
+    font-size: 2.4rem;
     text-align: center;
   }
 
@@ -1678,7 +1687,7 @@ form textarea::placeholder {
   }
 
   .left__section_bigg .btn-cg_bigg-1 {
-    margin-top: 0;
+    margin-top: 1rem;
   }
 
   .left__section_bigg .btn-cg_bigg-2 {

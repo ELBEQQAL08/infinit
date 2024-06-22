@@ -2,5 +2,6 @@
 - [x] Working Cercle With Javascript
 - [x] Fix Error In Script Cercle Using Javascript
 - [x] Fix Another Errors In Project
-- [ ] Host Project
+- [x] Host Project
+- [ ] Fix Errors In Project
 - [ ] Finish Project Using By HTML & CSS & JAVASCRIPT
