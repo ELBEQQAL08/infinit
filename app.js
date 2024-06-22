@@ -22,39 +22,6 @@ close__visible.addEventListener("click", () => {
   container_div.classList.remove("links__visible");
 });
 
-// Second Section
-
-const dynamicText = document.querySelector("h1 span");
-dynamicText.classList.add("stop-blinking");
-const Words = ["REACH", "ENGAGE", "CONVERT"];
-
-let wordIndex = 0;
-let charIndex = 1;
-let isDeleting = false;
-
-const typeEffect = () => {
-  const currentWord = Words[wordIndex];
-  const currentChar = currentWord.substring(0, charIndex);
-  dynamicText.textContent = currentChar;
-  if (!isDeleting && charIndex < currentWord.length) {
-    // if condition is True, type the next character
-    charIndex++;
-    setTimeout(typeEffect, 200);
-  } else if (isDeleting && charIndex > 0) {
-    // if condition is True, remote the previous character
-    charIndex--;
-    setTimeout(typeEffect, 100);
-  } else {
-    // if word is deleted then switch to the next word
-    dynamicText.classList.remove("stop-blinking");
-    isDeleting = !isDeleting;
-    wordIndex = isDeleting ? (wordIndex + 1) % Words.length : wordIndex;
-    setTimeout(typeEffect, 1200);
-  }
-};
-
-typeEffect();
-
 // Two Section
 
 const btn__submit = document.querySelector("#btn__event");

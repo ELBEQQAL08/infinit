@@ -1,6 +1,6 @@
 - [x] Working Message Error In Contact And Working Form Validation
 - [x] Working Cercle With Javascript
 - [x] Fix Error In Script Cercle Using Javascript
-- [ ] Fix Another Errors In Project
+- [x] Fix Another Errors In Project
 - [ ] Host Project
 - [ ] Finish Project Using By HTML & CSS & JAVASCRIPT

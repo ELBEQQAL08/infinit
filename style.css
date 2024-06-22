@@ -748,22 +748,7 @@ header {
   padding-left: 20rem;
 }
 
-.section__bottom h1 a {
-  font-size: 15px;
-  font-weight: 500;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #616161;
-  cursor: pointer;
-  text-decoration: none;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.section__bottom h1 a:hover {
-  color: white;
-}
-
-.section__bottom h1 .infinit {
+.section__bottom h1 span {
   font-size: 15px;
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
@@ -771,7 +756,7 @@ header {
   cursor: pointer;
 }
 
-.section__bottom h1 .infinit:hover {
+.section__bottom h1 span:hover {
   color: white;
 }
 
@@ -1005,7 +990,9 @@ header {
   background-repeat: no-repeat;
   background-position: left;
   text-align: center;
-  padding-left: 0.5rem;
+  padding-left: 1.5rem;
+  display: grid;
+  place-items: center;
 }
 
 .box__s p {
@@ -1053,6 +1040,7 @@ header {
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
+  padding-bottom: 1rem;
 }
 
 .section__top_l p {
@@ -1728,7 +1716,7 @@ form textarea::placeholder {
   }
 
   .title__heading span {
-    font-size: 2.2em !important;
+    font-size: 3em !important;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -1886,9 +1874,13 @@ form textarea::placeholder {
 
   /* End Contact Page */
 
-  /* Start Cerle Using Javascript */
+  /* Start Tree Section */
 
-  /* End Cercle Using Javascript */
+  .box__s ul li {
+    padding-left: 0.5rem;
+  }
+
+  /* End Tree Section */
 
   /* By Kamal El Beqqal */
 }
