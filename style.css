@@ -628,18 +628,22 @@ header {
   display: block;
   background-color: #1e73be;
   color: #ffffff;
-  height: 265px;
+  height: 100%;
 }
 
 .container__g {
   margin: 0 auto;
 }
 
+.container_logo {
+  padding-top: 3.5rem;
+}
+
 .container_logo img {
   align-self: end;
   vertical-align: middle;
   width: 165px;
-  padding-top: 2.5rem;
+  padding-bottom: 3rem;
 }
 
 .section__top {
@@ -656,6 +660,7 @@ header {
   font-size: 1.077em;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 1.5rem;
 }
 
 .icons__left ul li {
@@ -701,6 +706,7 @@ header {
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
+  padding-bottom: 0.5rem;
 }
 
 .icons__right ul li {
@@ -728,8 +734,8 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #361fc6;
-  height: 55.5px;
-  padding-top: 20px;
+  height: 60.5px;
+  padding-top: 20.5px;
   padding-bottom: 20px;
   border-radius: 5px;
 }

@@ -57,29 +57,22 @@ typeEffect();
 
 // Two Section
 
-const btn__submit = document.querySelector("btn__event");
-const input__text_1 = document.querySelector("class__1");
-const input__text_2 = document.querySelector("class__2");
-const input__text_3 = document.querySelector("class__3");
+const btn__submit = document.querySelector("#btn__event");
+const input__text_1 = document.querySelector(".class__1");
+const input__text_2 = document.querySelector(".class__2");
+const input__text_3 = document.querySelector(".class__3");
 let form__Input = document.forms["sign-up-form"];
 
 // Function ShowValue In Contact
 
-// function showValue(event) {
-//   console.log(input__text_1.value);
-//   console.log(input__text_2.value);
-//   console.log(input__text_3.value);
-//   event.preventDefault();
-// }
+function showValue(event) {
+  console.log(input__text_1.value);
+  console.log(input__text_2.value);
+  console.log(input__text_3.value);
+  event.preventDefault();
+}
 
-btn__submit.addEventListener("click", function () {
-  function showValue(event) {
-    console.log(input__text_1.value);
-    console.log(input__text_2.value);
-    console.log(input__text_3.value);
-    event.preventDefault();
-  }
-});
+btn__submit.addEventListener("click", showValue);
 
 // Function Message Error And Validation Success !
 
