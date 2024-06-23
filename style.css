@@ -347,6 +347,7 @@ header {
   padding-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  line-height: 1.8;
 }
 
 /* End Box Section */
@@ -402,6 +403,7 @@ header {
   margin-bottom: 0.5rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #6b717a;
+  line-height: 1.8;
 }
 
 .right-section p span {
@@ -612,6 +614,7 @@ header {
   color: white;
   text-align: left;
   padding-left: 1.5rem;
+  line-height: 1.8;
 }
 
 .box__1 .img__big {
@@ -672,7 +675,7 @@ header {
 .icons__left li svg,
 .icons__left li path {
   width: 14px;
-  margin-top: 0.5rem;
+  margin-top: 0.8rem;
   margin-bottom: 0;
   fill: currentColor;
   color: white;
@@ -1415,7 +1418,7 @@ form textarea::placeholder {
   }
 
   .left__section h1 {
-    font-size: 3rem !important;
+    font-size: 2rem !important;
     margin-left: 0.5rem;
     text-align: center;
   }
@@ -1627,7 +1630,7 @@ form textarea::placeholder {
   }
 
   .right-section h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
   }
 
@@ -1658,7 +1661,7 @@ form textarea::placeholder {
 
   .right-section_3 h1 {
     margin-top: 15px;
-    font-size: 3rem !important;
+    font-size: 2rem !important;
   }
 
   .right-section_3 .btn-cg__small-1 {
@@ -1674,12 +1677,13 @@ form textarea::placeholder {
   }
 
   .left__section_bigg h1 {
-    font-size: 2.4rem;
+    font-size: 2rem;
     text-align: center;
   }
 
   .left__section_bigg p {
     text-align: center;
+    line-height: 1.8;
   }
 
   .left__section_bigg p span {
@@ -1725,15 +1729,20 @@ form textarea::placeholder {
   }
 
   .title__heading span {
-    font-size: 3em !important;
+    font-size: 2em !important;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    padding-left: 1rem;
   }
 
   .parag__con {
     display: inline-block;
     padding-top: 2.5rem !important;
+  }
+
+  .parag__con p {
+    line-height: 1.8;
   }
 
   .container__grid {
@@ -1901,28 +1910,6 @@ form textarea::placeholder {
   }
 
   /* End Tree Section */
-
-  /* Start Cercle Using Javascript */
-
-  #top__progress {
-    background-color: #1e73be;
-    position: fixed;
-    bottom: 45px;
-    right: 10px;
-    height: 70px;
-    width: 70px;
-    display: none;
-    place-items: center;
-    border-radius: 50%;
-    cursor: pointer;
-  }
-
-  #top__progress__value img {
-    width: 30px;
-    height: 30px;
-  }
-
-  /* End Cercle Using Javascript */
 
   /* By Kamal El Beqqal */
 }
