@@ -347,7 +347,6 @@ header {
   padding-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  line-height: 1.8;
 }
 
 /* End Box Section */
@@ -1546,6 +1545,7 @@ form textarea::placeholder {
 
   .box__left p {
     font-weight: 500;
+    line-height: 1.8;
   }
 
   .box__right {
@@ -1571,6 +1571,7 @@ form textarea::placeholder {
 
   .box__right p {
     margin-top: 0;
+    line-height: 1.8;
   }
 
   .box {
@@ -1578,6 +1579,10 @@ form textarea::placeholder {
     margin-bottom: 1rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+  }
+
+  .box p {
+    line-height: 1.8;
   }
 
   /* Hero Section */
