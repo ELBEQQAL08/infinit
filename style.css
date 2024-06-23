@@ -1314,7 +1314,7 @@ form textarea::placeholder {
 #top__progress {
   background-color: #1e73be;
   position: fixed;
-  bottom: 20px;
+  bottom: 45px;
   right: 10px;
   height: 70px;
   width: 70px;
@@ -1415,7 +1415,7 @@ form textarea::placeholder {
   }
 
   .left__section h1 {
-    font-size: 3.5rem !important;
+    font-size: 3rem !important;
     margin-left: 0.5rem;
     text-align: center;
   }
@@ -1759,6 +1759,7 @@ form textarea::placeholder {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding-top: 40px;
+    place-items: center;
   }
 
   .container_logo img {
@@ -1774,8 +1775,18 @@ form textarea::placeholder {
   }
 
   .icons__right {
-    padding: 25px;
+    padding-left: 0;
+    padding-right: 4.5rem;
     padding-top: 0;
+  }
+
+  .icons__right h1 {
+    font-size: 1.077em;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    padding-bottom: 1.5rem;
+    padding-right: 0.5rem;
   }
 
   .section__bottom h1 {
@@ -1890,6 +1901,28 @@ form textarea::placeholder {
   }
 
   /* End Tree Section */
+
+  /* Start Cercle Using Javascript */
+
+  #top__progress {
+    background-color: #1e73be;
+    position: fixed;
+    bottom: 45px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    display: none;
+    place-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  #top__progress__value img {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* End Cercle Using Javascript */
 
   /* By Kamal El Beqqal */
 }
