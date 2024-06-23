@@ -4,4 +4,6 @@
 - [x] Fix Another Errors In Project
 - [x] Host Project
 - [ ] Fix Errors In Project
+- [ ] Next Page Services And Fix Errors In This Page
+- [ ] Next Page Contact And Fix Errors In This Page
 - [ ] Finish Project Using By HTML & CSS & JAVASCRIPT
