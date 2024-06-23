@@ -1479,6 +1479,11 @@ form textarea::placeholder {
     }
   }
 
+  .container__btn {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   .right__section img {
     width: 100%;
   }
