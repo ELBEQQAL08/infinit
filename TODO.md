@@ -6,5 +6,5 @@
 - [x] Fix Errors In Project
 - [x] Next Page Services And Fix Errors In This Page
 - [x] Next Page Contact And Fix Errors In This Page
-- [ ] Work Data Form HTML In Contact Using API With JAVASCRIPT
-- [ ] Finish Project Using By HTML & CSS & JAVASCRIPT
+- [x] Work Data Form HTML In Contact Using API With JAVASCRIPT
+- [X] Finish Project Using By HTML & CSS & JAVASCRIPT
