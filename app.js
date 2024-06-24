@@ -103,4 +103,22 @@ let calcValueScroll = () => {
 window.onscroll = calcValueScroll;
 window.onload = calcValueScroll;
 
+// Data In Google Sheet Using APi
+
+var form = document.getElementById("sheetdb-form");
+var btn_Click = document.getElementById("btn__event");
+
+btn_Click.addEventListener("click", (e) => {
+  e.preventDefault();
+  fetch(form.action, {
+    method: "POST",
+    body: new FormData(document.getElementById("sheetdb-form")),
+  })
+    .then((Response) => Response.json())
+    .then((html) => {
+      // you can put any JS code here
+      window.open("d.html", "_blank");
+    });
+});
+
 // By Kamal El Beqqal

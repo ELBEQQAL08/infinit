@@ -3,7 +3,8 @@
 - [x] Fix Error In Script Cercle Using Javascript
 - [x] Fix Another Errors In Project
 - [x] Host Project
-- [ ] Fix Errors In Project
-- [ ] Next Page Services And Fix Errors In This Page
-- [ ] Next Page Contact And Fix Errors In This Page
+- [x] Fix Errors In Project
+- [x] Next Page Services And Fix Errors In This Page
+- [x] Next Page Contact And Fix Errors In This Page
+- [ ] Work Data Form HTML In Contact Using API With JAVASCRIPT
 - [ ] Finish Project Using By HTML & CSS & JAVASCRIPT
